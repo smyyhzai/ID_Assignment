@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Noto Serif", serif;
+  scroll-behavior: smooth;
 }
 
 .main-header {
@@ -49,12 +50,12 @@
   font-family: "Montagu Slab", serif;
   font-size: 70px;
   margin: 10px, 0, 0;
-  color: rgba(235, 232, 230, 0.9);
+  color: rgb(31, 55, 82);
   text-align: center;
 }
 
 .text-box h1:hover {
-  color: rgb(63, 63, 107);
+  color: rgb(214, 208, 203);
   transition: 0.5s;
 }
 
@@ -69,6 +70,12 @@
 .text-box h3 {
   text-align: center;
   color: rgba(235, 232, 230, 0.8);
+}
+
+.arrow img {
+  width: 50px;
+  height: 50px;
+  margin: 40px 500px;
 }
 
 @media (max-width: 600px) {
@@ -87,14 +94,19 @@
   margin: auto;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
+  background-color: rgba(39, 43, 63, 0.849);
 }
 
 .intro h2 {
   padding-top: 30px;
   padding-bottom: 15px;
   font-weight: 600;
-  color: rgb(89, 89, 146);
+  color: rgb(217, 194, 228);
+}
+
+.intro p {
+  color: rgb(228, 224, 224);
 }
 
 .intro img {
@@ -103,17 +115,46 @@
   object-fit: contain;
 }
 
+.gallery-row {
+  display: flex;
+  background-color: rgba(39, 43, 63, 0.849);
+  padding-bottom: 25px;
+}
+
 .gallery-col {
   float: left;
-  width: 22%;
-  padding-left: 5px;
-  padding-right: 5px;
+  width: 18%;
+  margin-left: 25px;
+  padding-left: 32px;
+  padding-right: 0px;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
 }
 
 .gallery-row img {
   object-fit: cover;
   width: 200px;
   height: 200px;
+  border-radius: 10px;
+}
+
+.layer {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 32px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.layer:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.layer h3 {
+  color: rgb(228, 224, 224);
 }
 
 @media (max-width: 600px) {
@@ -141,11 +182,11 @@
   margin-top: 100px;
   font-size: 70px;
   color: rgb(238, 172, 164);
+  transition: 0.5s;
 }
 
 .sub-header h1:hover {
-  color: rgb(176, 199, 228);
-  transition: 0.5s;
+  color: rgb(25, 41, 59);
 }
 
 /*-------about ------*/
@@ -347,9 +388,9 @@ h3 {
 /*------ footer-------*/
 
 .footer {
-  margin-top: 600px;
+  margin-top: 0px;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(footer.png);
   background-position: center;
   background-size: cover;
