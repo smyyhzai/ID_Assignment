@@ -85,12 +85,6 @@
   display: flex;
 }
 
-nav.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 @media (max-width: 685px) {
   .text-box {
     font-size: 25px;
@@ -116,7 +110,7 @@ nav.sticky {
   }
 }
 
-/*----------intro---------------*/
+/*----------------intro---------------*/
 
 .intro {
   width: 100%;
@@ -199,6 +193,13 @@ nav.sticky {
   }
 }
 
+@media (max-width: 470px) {
+  .gallery-col {
+    flex-basis: 50%;
+    padding-left: 60px;
+  }
+}
+
 /*-----------sub header--------*/
 
 .sub-header {
@@ -209,6 +210,7 @@ nav.sticky {
   background-position: center;
   background-size: cover;
   text-align: center;
+  margin-top: 0px;
 }
 
 .sub-header h1 {
@@ -222,11 +224,13 @@ nav.sticky {
   color: rgb(25, 41, 59);
 }
 
-/*-------about------*/
+/*-------------------about--------------------*/
+
 .abt {
   width: 100%;
   margin: auto;
   background-color: rgba(39, 43, 63, 0.849);
+  display: flex;
 }
 
 .profile {
@@ -273,7 +277,7 @@ nav.sticky {
   display: inline-block;
   color: salmon;
   padding: 8px;
-  width: 10%;
+  width: 15%;
 }
 
 .profile-text .btn {
@@ -289,9 +293,15 @@ nav.sticky {
 }
 
 .abt-col {
-  margin: 10px 10px 5px 20px;
+  margin: 5px 10px 5px 30px;
   width: 75%;
   color: rgb(228, 224, 224);
+}
+
+.abt-col:hover {
+  background-color: rgba(238, 238, 216, 0.3);
+  border-radius: 10px;
+  transition: 0.5s ease;
 }
 
 .abt-col h3 {
@@ -305,16 +315,18 @@ nav.sticky {
 }
 
 @media (max-width: 685px) {
+  .abt {
+    flex-wrap: wrap;
+  }
   .profile {
     width: 100%;
   }
   .profile img {
-    margin: 8px 8px 8px 50px;
+    margin: auto;
   }
   .abt-col {
-    flex-direction: row;
-    margin-left: 50px;
-    width: 90%;
+    margin: 5px 10px 5px 30px;
+    width: 100%;
   }
 }
 
@@ -493,9 +505,10 @@ nav.sticky {
 
 */
 
-/*----contact----------*/
+/*-------------contact----------------*/
+
 .contact {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding-top: 50px;
@@ -590,4 +603,22 @@ nav.sticky {
   color: rgb(238, 172, 164);
   font-weight: 600;
   padding-top: 5px;
+}
+
+/*---------navbar-----------*/
+nav.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 10px 30px 30px;
+  background-color: rgb(25, 41, 59);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  transition: padding 1s ease;
+}
+
+nav.sticky ul {
+  width: 100%;
 }
