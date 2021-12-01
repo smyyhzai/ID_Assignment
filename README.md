@@ -1,24 +1,12 @@
-Sumayyah Binte Zaini
+## **_Sumayyah Binte Zaini_**
+
 S10223863
 INTERACTIVE DEVELOPMENT
 Assignment 1
 
-the user audience intent and purpose.
-● Who the website is catering for? Value that it is providing to users
-● What is the website catering for?
-● Attribute all external source code used
-
-<<<<<<< HEAD
-
-# **SUMAYYAH'S PORTFOLIO**
-
-## The user audience intent and purpose
-
-=======
-
 # **Project Name: SUMAYYAH'S PORTFOLIO**
 
-> > > > > > > f2c236bd3641d18c676660fe5a02228af79967f4
+## The user audience intent and purpose
 
 Targetting potential employers, hirers, or just passersby, through a simply put together portfolio. Users can view the website portfolio through their phone browser or desktop.
 
@@ -26,15 +14,7 @@ This fully responsive website is easy to navigate through, and provides an ample
 
 # **RATIONALE**
 
-<<<<<<< HEAD
-
 ## Who the website is catering for?
-
-=======
-
-# **RATIONALE**
-
-> > > > > > > f2c236bd3641d18c676660fe5a02228af79967f4
 
 The overview of my website is to allow potential employers to find out more about myself as an employee.
 
@@ -50,12 +30,7 @@ Moreover as an IT student, this portfolio could become one of the projects that 
 
 # **DESIGN PROCESS**
 
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > f2c236bd3641d18c676660fe5a02228af79967f4
-> > > > > > > Focusing on my target audience, which are the employers, I went for a simple and intuitive webiste as the basis of my portfolio.
+Focusing on my target audience, which are the employers, I went for a simple and intuitive webiste as the basis of my portfolio.
 
 1. Initially designing a wireframe using Adobe XD, i drafted my website in a desktop view and mobile view to get a picture of what I would like to create. The number of pages, the content required, the tags I would include, and much more.
 
