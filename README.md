@@ -1,4 +1,4 @@
-## **_Sumayyah Binte Zaini_**
+### **_Sumayyah Binte Zaini_**
 
 S10223863
 INTERACTIVE DEVELOPMENT
@@ -12,7 +12,7 @@ Targetting potential employers, hirers, or just passersby, through a simply put 
 
 This fully responsive website is easy to navigate through, and provides an ample amount of information about me.
 
-# **RATIONALE**
+## **RATIONALE**
 
 ### Who the website is catering for?
 
@@ -28,13 +28,13 @@ I have decided to create a portfolio website because I believe it would prove to
 
 Moreover as an IT student, this portfolio could become one of the projects that I would showcase and present as one of my abilities.
 
-# **DESIGN PROCESS**
+## **DESIGN PROCESS(and features)**
 
 Focusing on my target audience, which are the employers, I went for a simple and intuitive webiste as the basis of my portfolio.
 
 1. Initially designing a wireframe using Adobe XD, i drafted my website in a desktop view and mobile view to get a picture of what I would like to create. The number of pages, the content required, the tags I would include, and much more.
 
-**View Adobe XD wireframe here:** https://xd.adobe.com/view/10dec344-fefa-40af-9eb4-9ede0d41f91f-458d/
+**View Adobe XD wireframe here:** https://xd.adobe.com/view/e10c8184-fc77-45cc-bdf2-0593a3847ad8-b45f/
 
 2. Next, I began creating the index page which would contain my the home/landing page of my website. I coded using Visual Studio Code.
 
@@ -44,36 +44,47 @@ Focusing on my target audience, which are the employers, I went for a simple and
 
 **Images can be viewed in the GitHub folder here:** https://github.com/smyyhzai/ID_Assignment/tree/main/images
 
-4. My website includes 5 pages altogether. The home page, about page, background page, project page, and contact page.
+**_Each image source is linked here [click](### All-external-source-used)_**
 
-Home page: The landing page to welcome user audience and brief intoroduction of the website and its purposes.
+### **FEATURES**
 
-About page: Includes academic skills, personal skills and interests.
+4. My website includes 5 pages altogether. The home page, about page, background page, project page, and contact page. Throughout all pages in the website, the navigation bar on top is fixed and scrolls along the page.
 
-Background page: Tells my education history and work experiences.
+Home page: Introductory page, contains arrow to navigate viewers to the other section of the page. This other section has 4 images which also navigates users to other pages on the website.
 
-Project page: Showcases my previous projects in a gallery. Personal projects, school projects, and random images as well.
+About page: Contains a gif of myself, brief summary of me, some software skills that I have acquired and finally some of my interests.
 
-Contact page: Includes social media pages, linkedIn profile, Email Address and contact information for potential employers.
+Background page: Shows my eduction history and work experiences.
+
+Project page: Showcases my school and personal projects in a resposive grid gallery. Also provides viewers with a description of the project. Additionally, each page has a header and footer.
+
+Contact page: Offers viewers a form section where they can leave feedback, job offers, or even a hello.
 
 **Website can be viewed here:** https://smyyhzai.github.io/ID_Assignment/
 
-5. Added javascript features like,
-   -----------------TO BE CONTINUED -----------------
+5. Added javascript on:
 
-# **FEATURES**
+- navigation bar is fixed unto top of the website
+- submit button on form section, sends an alert to users
 
-### Attribute all external source code used:
+## All external source code used:
 
 - Icons: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 - Fonts: "https://fonts.google.com"
+- image links :
+  - subheader: https://www.pinterest.com/pin/588353138828191075/
+  - footer: https://www.pinterest.com/pin/588353138828174095/
+  - landing page header: https://www.pinterest.com/pin/25966135342150639/
 
-# **CREDITS**
+## CREDITS
 
-### REFERENCES
+## ACKNOWLEDGEMENT
 
-### RESEARCH
+I learnt a lot from my lecturer Mr Peter, who teaches me the Interactive Development Module.
+Lecturer: Mr Peter Hung, peter_hung@adj.np.edu.sg
 
-### MEDIA
+Taken references from this website
+W3schools: https://www.w3schools.com/
 
-# **FEATURES**
+Received inspiration from these portfolios:
+https://webflow.com/blog/design-portfolio-examples
