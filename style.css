@@ -355,7 +355,7 @@
 
 .row {
   width: 80%;
-  margin-left: 0;
+  margin-left: 100px;
   justify-content: center;
 }
 
@@ -363,7 +363,7 @@
   flex-basis: 42%;
   background: rgb(238, 238, 216);
   border-radius: 5px;
-  margin: 5px 0px 5px 40px;
+  margin: 5px 0px 5px 30px;
   text-align: left;
   padding: 15px;
   transition: 0.5s;
@@ -413,11 +413,11 @@
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 0px;
   border: solid rosybrown;
   background-color: white;
   justify-content: right;
   margin: auto;
+  padding: 10px;
 }
 
 .proj-col {
@@ -449,6 +449,10 @@
   background-color: rgb(192, 184, 184);
   transition: 0.5s;
   color: rgb(27, 27, 58);
+}
+
+.proj-layer a {
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {

@@ -1,7 +1,7 @@
 ### **_Sumayyah Binte Zaini_**
 
-S10223863
-INTERACTIVE DEVELOPMENT
+S10223863<br>
+INTERACTIVE DEVELOPMENT<br>
 Assignment 1
 
 # **Project Name: SUMAYYAH'S PORTFOLIO**
@@ -46,7 +46,7 @@ Focusing on my target audience, which are the employers, I went for a simple and
 
 **_Each image source is linked here [click](### All-external-source-used)_**
 
-### **FEATURES**
+#### **FEATURES**
 
 4. My website includes 5 pages altogether. The home page, about page, background page, project page, and contact page. Throughout all pages in the website, the navigation bar on top is fixed and scrolls along the page.
 
@@ -56,16 +56,17 @@ About page: Contains a gif of myself, brief summary of me, some software skills 
 
 Background page: Shows my eduction history and work experiences.
 
-Project page: Showcases my school and personal projects in a resposive grid gallery. Also provides viewers with a description of the project. Additionally, each page has a header and footer.
+Project page: Showcases my school and personal projects in a resposive grid gallery. Also provides viewers with a description of the project. Some projects include a link that directs viewers (upon clicking) to a different website opened in a new window.
 
-Contact page: Offers viewers a form section where they can leave feedback, job offers, or even a hello.
+Contact page: Offers viewers a form section where they can leave feedback, job offers, or even a hello. Additionally, returns a successfully sent message when the form is submitted.
 
 **Website can be viewed here:** https://smyyhzai.github.io/ID_Assignment/
 
-5. Added javascript on:
+5. Javascript added:
 
 - navigation bar is fixed unto top of the website
 - submit button on form section, sends an alert to users
+- current day, date, time on footer
 
 ## All external source code used:
 
@@ -78,13 +79,13 @@ Contact page: Offers viewers a form section where they can leave feedback, job o
 
 ## CREDITS
 
-## ACKNOWLEDGEMENT
+### ACKNOWLEDGEMENT
 
-I learnt a lot from my lecturer Mr Peter, who teaches me the Interactive Development Module.
+I learnt a lot from my lecturer Mr Peter, who teaches me the Interactive Development Module.<br>
 Lecturer: Mr Peter Hung, peter_hung@adj.np.edu.sg
 
-Taken references from this website
+Taken references from this website:<br>
 W3schools: https://www.w3schools.com/
 
-Received inspiration from these portfolios:
+Received inspiration from these portfolios:<br>
 https://webflow.com/blog/design-portfolio-examples

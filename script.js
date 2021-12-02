@@ -1,3 +1,5 @@
+//navigation bar fixed to top of website
+
 var navbar = document.getElementById("navbar");
 var menu = document.getElementById("menu");
 
@@ -11,3 +13,11 @@ window.onscroll = function () {
     }
 }
 
+//form response alert
+function alertFunction(){
+    alert("Comment submitted successfully. Thank you! ");
+}
+
+//current date and time
+const d = new Date();
+document.getElementById("datetime").innerHTML = d;
