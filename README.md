@@ -42,11 +42,11 @@ Focusing on my target audience, which are the employers, I went for a simple and
 
 3. Then, I collected a number of suitable images first before beginning my page. Thus, I downloaded header/footer images and included images of my projects, that I would like to showcase in my page for visualization and aesthetic purposes.
 
-   **Images can be viewed in the GitHub folder here:** https://github.com/smyyhzai/ID_Assignment/tree/main/images
+   **Images can be viewed in the GitHub folder here:** https://github.com/smyyhzai/ID_Assignment/tree/main/images<br>
 
    **Each image is referenced in another section of this markdown.**
 
-4. My website includes 5 pages altogether. The home page, about page, background page, project page, and contact page. Throughout all pages in the website, the navigation bar on top is fixed and scrolls along the page.
+4. My website includes 5 pages altogether. The home page, about page, background page, project page, and contact page. Throughout all pages in the website, the navigation bar on top is fixed and scrolls along the page.<br>
    **Features and description of each page explained in a later section.**
 
 5. Javascript added:
