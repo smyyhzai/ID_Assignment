@@ -62,7 +62,7 @@
 
 .text-box h1:hover {
   color: rgb(238, 222, 222);
-  text-shadow: 1px 1px rgb(29, 28, 28);
+  text-shadow: 2px 2px rgb(29, 28, 28);
   transition: 0.5s;
 }
 
