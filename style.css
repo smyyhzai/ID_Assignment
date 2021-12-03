@@ -57,6 +57,8 @@
   font-size: 70px;
   margin: 10px, 0, 0;
   color: rgb(20, 35, 53);
+  text-shadow: 0.5px 0.5px rgb(238, 222, 222);
+
   text-align: center;
 }
 
